@@ -1,0 +1,70 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    gap: 20px;
+    
+    
+
+}
+.fa-twitter{
+   
+    padding: 7px;
+    border-radius: 25px;
+    background-color: rgb(85, 172, 238);
+}
+.fa-github{
+    padding: 7px 15px;
+    background-color: rgb(235, 240, 244);
+}
+@media screen and (width< 200px) {
+    .fa-twitter,.fa-github {
+    visibility: hidden;
+    }
+  }
+  .logo{
+   background-color: #0a1922;
+    border: 1px solid #0a1922;
+    padding-bottom: 100px;
+    color: rgba(255, 255, 255, 0.9);
+
+    
+  }
+  
+ .card img{
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ @media screen and (width< 770px) {
+   .container .r{
+    display: grid;
+    grid-template-columns: column;
+  
+   }
+  }
+  @media screen and (width= 768px) {
+    .container .r{
+     display: flex;
+     align-items: center;
+   
+    }
+   }
+  .col2{
+    font-family: muli, avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+
+  }
+  @media screen and (width< 770px) {
+    .container .r1{
+     display: grid;
+     grid-template-columns: column;
+   
+    }
+   }
